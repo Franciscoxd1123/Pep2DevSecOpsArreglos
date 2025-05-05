@@ -16,7 +16,7 @@ INSERT INTO users (rut, first_name, last_name, email, password, phone_number, ag
  '$2a$10$tYbZEsXj2GOvEpdAEvFgOePqRLDx4S/7TqpE1YvEpRi5XgqZ94/1.', -- exec123 cifrado
  '+56933333333', 38, 1);  
 
--- Insertar aplicaciones 
+-- Insertar aplicaciones (esta parte queda igual)
 INSERT INTO applications (
     user_id, property_type, requested_amount, term, interest_rate, status,
     monthly_income, employment_years, current_debt, property_value, documentation_complete
