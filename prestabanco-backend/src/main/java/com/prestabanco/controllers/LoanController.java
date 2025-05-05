@@ -11,7 +11,6 @@ import java.util.List;
 import java.math.BigDecimal;
 
 @RestController
-@CrossOrigin
 @RequestMapping("/api/loans")
 public class LoanController {
 

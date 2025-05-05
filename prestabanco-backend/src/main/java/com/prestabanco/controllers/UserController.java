@@ -12,7 +12,6 @@ import java.util.Map;
 import java.util.HashMap;
 
 @RestController
-@CrossOrigin
 @RequestMapping("/api/users")
 public class UserController {
 
