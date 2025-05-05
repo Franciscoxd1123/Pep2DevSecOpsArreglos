@@ -10,5 +10,4 @@ public class PrestabancoAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PrestabancoAppApplication.class, args);
 	}
-
 }
