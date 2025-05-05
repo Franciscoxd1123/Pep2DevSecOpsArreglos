@@ -40,7 +40,6 @@ public class ApplicationController {
             ApplicationEntity savedApplication = applicationService.createApplication(application);
             return ResponseEntity.ok(savedApplication);
         } catch (Exception e) {
-            e.printStackTrace(); // Para ver el error en los logs
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
                     .body("Error al crear la aplicación: " + e.getMessage());
         }
