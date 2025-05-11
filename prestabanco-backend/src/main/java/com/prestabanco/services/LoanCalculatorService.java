@@ -52,7 +52,7 @@ public class LoanCalculatorService {
 
         // Costo total del préstamo
         return totalMonthlyPayment
-                .multiply(BigDecimal.valueOf(years * 12))
+                .multiply(BigDecimal.valueOf((long) years * 12))
                 .add(adminFee)
                 .setScale(0, RoundingMode.HALF_UP);
     }
